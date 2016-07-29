@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Danone CBS</title>
+
+<!-- Import Script Start Here -->
+	<!-- Custom Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="parallax.min.js"></script>
+
+<!-- Import Script End Here -->
+
+<style>
+/* Common style here */
+	body{
+		background-color: #eceff1;
+		color: #212121;
+		font-family: 'Roboto';
+		font-weight: 400;
+	}
+/* Typography */
+	/* a {
+		font-family: 'Roboto';
+		font-weight: 400;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		color: #212121;
+	}
+	*/
+	a:hover, a:focus{
+		text-decoration: none;
+	}
+	.text-right{
+		text-align: right;
+	}
+
+	.title-paralax{
+		padding-top: 90px;
+		font-family: 'Roboto';
+		font-weight: 100;
+		text-align: center;
+		font-size: 4.5em;
+		text-transform: uppercase;
+		color: #f5f5f5;
+	}
+
+/* Navbar */
+	.navbar .navbar-toggle .icon-bar {
+	    background-color: black;
+	}
+	.navbar.center .navbar-inner {
+    text-align: center;
+	}
+	.navbar.center .navbar-inner .nav {
+	    float: none;
+	    display:inline-block;
+	}
+
+/* Parallax */
+	.parallax-window {
+	    min-height: 300px;
+	    background: transparent;
+	    background-repeat:no-repeat;
+		background-position: center center;
+	}
+
+/* Grid */
+	.grids{
+		background-color: #eceff1;
+		margin-top:10px;
+		border: #cdcdcd medium solid;
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
+
+	.grids1:hover{
+		transition: 0.3s;
+		background-color: #607d8b;
+		color:#eceff1;
+	}
+	.grids2:hover{
+		transition: 0.3s;
+		background-color: #e65100;
+		color:#fff8e1;
+	}
+	.grids3:hover{
+		transition: 0.3s;
+		background-color: #4caf50;
+		color:#e8f5e9;
+	}
+	.grids4:hover{
+		transition: 0.3s;
+		background-color: #3f51b5;
+		color:#e8eaf6;
+	}
+
+
+	.col-lg-3{
+		outline: 2px #212121;
+	}
+
+	.grids-subtitle{
+		color: #9e9e9e;
+		font-weight: 100;
+		font-family: 'Roboto';
+		font-size: 100px;
+	}
+
+	.grids-title,{
+		color: #424242;
+		font-weight: 700;
+		font-family: 'Roboto';
+	}
+
+	.grids-title:hover{
+		color: #fff;
+	}
+
+/* Button */
+
+/* Footer */
+	.footers{
+		background-color: #333;
+		color: #fff;
+	}
+
+	.footers-title{
+		font-family: 'Roboto';
+		font-size: 3em;
+		font-weight: 300;
+	}
+
+	.footers-subtitle{
+		font-weight: 300;
+	}
+
+	.btn{
+		border-radius: 0px;
+	}
+
+</style>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<div class="parallax-window" data-parallax="scroll" data-position="top" data-bleed="10" data-speed="0.2" data-image-src="image_compressed.jpg">
+				<nav class="navbar center">
+				  <div class="container-fluid">
+				    <div class="navbar-inner">
+				    	<ul class="nav navbar-nav">
+				    		<div class="col-lg-12">
+				    			<img src="logo_compressed.png" class="img-responsive">
+				    		</div>
+				    	</ul>
+				    </div>
+				  </div>
+				</nav>
+				<h1 class="title-paralax hidden-xs hidden-md"> Welcome to Danone CBS </h1>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center " style="height:70px; margin-top:0px; padding-top: 5px; background-color:#333; color:#fff; font-weight:100;">
+			<h4 style="font-weight:300;"> Lorem ipsum dolor sit <strong> amet, </strong>  consectetur adipisicing elit. </h4>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 text-center animated fadeIn">
+		<a href="#">
+			<div class="col-lg-3 grids1" style="height:200px; padding-top:50px;">
+				<i class="fa fa-home fa-2x" aria-hidden="true"></i>
+				<h4 class="grids-title"> <strong> Home </strong> </h4>
+				<p class="grids-sutbtile"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt.</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="col-lg-3 grids2" style="height:200px; padding-top:50px;">
+				<i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
+				<h4 class="grids-title"> <strong> Games </strong> </h4>
+				<p class="grids-sutbtile"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt.</p>
+			</div>
+		</a>
+		<a href="#">				
+			<div class="col-lg-3 grids3" style="height:200px; padding-top:50px;">
+				<i class="fa fa-check-circle-o fa-2x" aria-hidden="true"></i>
+				<h4 class="grids-title"> <strong> Agenda </strong> </h4>
+				<p class="grids-sutbtile"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt.</p>
+			</div>
+		</a>
+		<a href="#">			
+			<div class="col-lg-3 grids4" style="height:200px; padding-top:50px;">
+				<i class="fa fa-users fa-2x" aria-hidden="true"></i>
+				<h4 class="grids-title"> <strong> Convention </strong> </h4>
+				<p class="grids-sutbtile"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt.</p>
+			</div>
+		</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12 footers container-fluid text-center" style="height:200px;">
+			<h1 class="footers-title" style="padding-top:50px;"> Call Us below </h1>	
+			 <button type="button" class="btn btn-success btn-md"> Werkudara Team</button>
+			 <button type="button" class="btn btn-success btn-md"> Danone Team</button>
+		</div>
+	</div>
+</body>
+
+<!-- Reference 
+	Image Stok : http://pexels.com/
+	Change Hamburger Color : http://stackoverflow.com/questions/20540563/change-icon-bar-color-in-bootstrap
+	Paralax : http://pixelcog.github.io/parallax.js/
+	Centered Navbar Item : http://stackoverflow.com/questions/18838463/bootstrap-center-navbar-items
+	Borders : http://stackoverflow.com/questions/26104692/borders-between-columns-of-bootstrap-grid-not-working & http://stackoverflow.com/questions/15328679/how-to-use-border-with-bootstrap
+-->
+</html>
